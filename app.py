@@ -1,5 +1,5 @@
 import numpy as np
-from flask import Flask, request, jsonify, render_template           # render_template it is used to redirect
+from flask import Flask, request, jsonify, render_template          
 #from flask_ngrok import run_with_ngrok
 
 import pickle
