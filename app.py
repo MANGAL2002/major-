@@ -24,12 +24,10 @@ X = cv.fit_transform(corpus1).toarray()
 
 @app.route('/')     # it is a deacouterator
 def home():
-  
-    return render_template("index.html")
+  return render_template("index.html")
 @app.route('/')     # it is a deacouterator
 def home():
-  
-    return render_template("aboutus.html")
+  return render_template("aboutus.html")
   
 @app.route('/predict',methods=['GET'])
 def predict():
